@@ -1,5 +1,5 @@
 
-import mongoose from "mongoose";
+import mongoose, { model } from "mongoose";
 import type { CourseInterFace } from "./course.interface.js";
 
 const { Schema } = mongoose;
@@ -26,3 +26,5 @@ const courseSchema = new Schema<CourseInterFace>({
     courseTimeShedule: { type: [String], required: true }
     
 })
+
+export const Course = model<CourseInterFace>('Course', courseSchema); //model make korlam using interface and courseSchema
