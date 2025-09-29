@@ -18,9 +18,6 @@ mongoose.connect(mongoUri, {
     console.log("✅ Connected to MongoDB using Mongoose");
 
 
-
-
-
     // Start server only after DB connection
     app.listen(port, () => {
       console.log(`🚀 Server is running at http://localhost:${port}`);

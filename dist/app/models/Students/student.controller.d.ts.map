@@ -1,1 +1,1 @@
-{"version":3,"file":"student.controller.d.ts","sourceRoot":"","sources":["../../../../src/app/models/Students/student.controller.ts"],"names":[],"mappings":""}
+{"version":3,"file":"student.controller.d.ts","sourceRoot":"","sources":["../../../../src/app/models/Students/student.controller.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,OAAO,EAAE,QAAQ,EAAE,MAAM,SAAS,CAAC;AAMjD,eAAO,MAAM,uBAAuB,GAAU,KAAM,OAAO,EAAE,KAAM,QAAQ,4DAkB1E,CAAA;AAGD,eAAO,MAAM,wBAAwB,GAAU,KAAI,OAAO,EAAE,KAAM,QAAQ,kBAMzE,CAAA"}

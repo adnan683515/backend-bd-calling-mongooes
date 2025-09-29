@@ -4,7 +4,7 @@ import type { Imentors } from "./mentor.interface.js";
 
 export const mentorShcema = new Schema<Imentors>({
     id: {type : String, required : true},
-    name: {type : String, required : true , maxLength : 10 , minlength : 5 },
+    name: {type : String, required : true  },
     gender: {type : String, enum : ['male','female','other'], required : true},
     dateOfBirth: {type : String,required : true},
     email: {type : String, unique : true, required : true},
